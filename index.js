@@ -39,3 +39,9 @@ function sqrtNum(x) {
   return Math.sqrt(x);
 }
 console.log(sqrtNum(81));
+
+// example 7
+function rectanglePer(a, b, c, d, e) {
+  return 2 * (a + b);
+}
+console.log(rectanglePer(12, 9));
