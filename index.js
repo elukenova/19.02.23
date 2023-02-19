@@ -111,3 +111,8 @@ for(let i=0; number.length > i; i++) {
 // example 16
 let sentence = ["I", "like", "to", "eat!"];
 console.log(sentence.join('  '));
+
+// example 17 
+let englishNum = [ "one", "two", "three"];
+englishNum.reverse();
+console.log(englishNum);
