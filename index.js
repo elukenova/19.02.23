@@ -96,3 +96,14 @@ city.unshift("Osh");
 city.unshift("Bishkek");
 
 console.log(city);
+
+// example 15
+let number = [12, 23, 51, 84, 82, 3, 35];
+for(let i=0; number.length > i; i++) {
+  if(number[i] % 2 === 0){
+    console.log(number[i] + " - " + " Even");
+  }
+  else {
+    console.log(number[i] + " - " + " Odd");
+  }
+}
