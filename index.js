@@ -67,3 +67,10 @@ for (let i = 1; i <= 10; i++) {
   sqrt = i ** 2;
   console.log(sqrt);
 }
+
+// example 11
+total = 1;
+for (let i = 1; i <= 25; i++) {
+  total = total + i;
+}
+console.log(total);
