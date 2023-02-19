@@ -107,3 +107,7 @@ for(let i=0; number.length > i; i++) {
     console.log(number[i] + " - " + " Odd");
   }
 }
+
+// example 16
+let sentence = ["I", "like", "to", "eat!"];
+console.log(sentence.join('  '));
