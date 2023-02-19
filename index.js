@@ -45,3 +45,9 @@ function rectanglePer(a, b, c, d, e) {
   return 2 * (a + b);
 }
 console.log(rectanglePer(12, 9));
+
+// example 8
+for (let i = 0; i < 33; i+= 3) {
+  console.log(i);
+  
+}
