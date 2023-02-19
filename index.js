@@ -74,3 +74,8 @@ for (let i = 1; i <= 25; i++) {
   total = total + i;
 }
 console.log(total);
+
+// example 12
+for (let i = 0; i < 20; i = i + 2) {
+  console.log(i); 
+}
