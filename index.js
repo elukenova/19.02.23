@@ -51,3 +51,10 @@ for (let i = 0; i < 33; i+= 3) {
   console.log(i);
   
 }
+
+// example 9
+let factorial = 1;
+for(let i = 1; i <= 8; i++) {
+  factorial *= i;
+}
+console.log(factorial);
