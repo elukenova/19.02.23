@@ -10,3 +10,8 @@ function areaReg(h, r) {
   console.log("Объем конуса " + result);
 }
 areaReg(3, 2);
+
+function Lengthstr(str) {
+  console.log("Длина словы " + str + " - " + str.length);
+}
+Lengthstr("Kyrgyzstan");
