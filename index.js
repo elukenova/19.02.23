@@ -84,3 +84,15 @@ for (let i = 0; i < 20; i = i + 2) {
 for (let i = 1; i < 15; i += 2){
   console.log(i);
 }
+
+// example 14
+let city = ["Karakol", "Cholpon-Ata"];
+
+city.push("Balykchy");
+city.push("Naryn");
+
+city.unshift("Talas");
+city.unshift("Osh");
+city.unshift("Bishkek");
+
+console.log(city);
