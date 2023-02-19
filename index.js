@@ -116,3 +116,9 @@ console.log(sentence.join('  '));
 let englishNum = [ "one", "two", "three"];
 englishNum.reverse();
 console.log(englishNum);
+
+// example 18 
+let name = ['Saltanat', 'Gulnur', 'Aktan'];
+console.log("Hello " + name[0] + "!");
+console.log("Hello " + name[1] + "!");
+console.log("Hello " + name[2] + "!");
