@@ -1,3 +1,4 @@
+// example1
 function myName(name, surname) {
   console.log("My name is " + name + surname);
 }
@@ -32,3 +33,9 @@ function squareNum(a) {
   return a * a;
 }
 console.log(squareNum(5));
+
+// example 6
+function sqrtNum(x) {
+  return Math.sqrt(x);
+}
+console.log(sqrtNum(81));
