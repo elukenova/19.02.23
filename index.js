@@ -15,3 +15,16 @@ function Lengthstr(str) {
   console.log("Длина словы " + str + " - " + str.length);
 }
 Lengthstr("Kyrgyzstan");
+
+
+function printEvenAndOdd(num) {
+  if (num % 2 === 0) {
+    console.log(num + " - Even ");
+  }
+  else{
+    console.log(num + ' - Odd');
+  }
+}
+printEvenAndOdd(12);
+
+
