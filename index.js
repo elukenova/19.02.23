@@ -28,3 +28,7 @@ function printEvenAndOdd(num) {
 printEvenAndOdd(12);
 
 
+function squareNum(a) {
+  return a * a;
+}
+console.log(squareNum(5));
